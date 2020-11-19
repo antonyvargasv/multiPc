@@ -32,10 +32,6 @@ header{
 }
 
 
-main{
-	
-}
-
 .main__portada{
 	font-family: 'Playfair Display', serif;
 	color: var(--white); 
@@ -78,7 +74,47 @@ main{
 }
 
 .main__trabajos{
-	color: var(--orange);
+	color: white;
 	height: 100vh;
 	background-color: var(--orange);
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
 }
+
+h2 {
+    margin-bottom: 2rem;
+  }
+  .tareas {
+    list-style: none;
+  }
+  
+  .tareas__link {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    transition: 0.2s all ease-in;
+  }
+  .tareas__link:hover {
+    font-size: 1.2rem;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
